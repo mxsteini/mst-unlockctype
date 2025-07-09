@@ -1,0 +1,11 @@
+{
+    "name": "mst/mst-unlockctype",
+    "description": "This extension removes the locked ctype of content elements in translations",
+    "type": "typo3-cms-extension",
+    "license": "proprietary",
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "mst_unlockctype"
+        }
+    }
+}
