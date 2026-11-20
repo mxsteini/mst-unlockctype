@@ -4,7 +4,9 @@ This extension unlocks the ctype of content elements in translations
 
 ## Why?
 
-In v13, the ctype of content elements is locked in translations. This extension unlocks it.
+Since v13, the ctype of content elements is locked in translations. This extension unlocks it.
+
+Compatible with TYPO3 v13.4 and v14 (tested with 14.3).
 
 The reason for this is this issue:
 
@@ -32,3 +34,6 @@ Install the extension via Composer:
 ```
 composer req mst/mst-unlockctype
 ```
+
+The TCA override (`Configuration/TCA/Overrides/tt_content.php`) is loaded after EXT:frontend, which
+defines the `tt_content` TCA since v13. The extension therefore depends on `typo3/cms-frontend`.

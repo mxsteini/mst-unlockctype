@@ -9,12 +9,12 @@
     automatic-menu="true"
     >
     <project
-        title="mst/mst-reloadtrigger"
+        title="mst/mst-unlockctype"
         copyright="The contributors"
     />
     <extension
         class="\T3Docs\Typo3DocsTheme\DependencyInjection\Typo3DocsThemeExtension"
-        edit-on-github="mxsteini/mst_"
+        edit-on-github="mxsteini/mst_unlockctype"
         edit-on-github-branch="main"
         interlink-shortcode="mst/mst-unlockctype"
         project-home="https://www.michaelstein-itb.de/projekte/mst-unlockctype"
